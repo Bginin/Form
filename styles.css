@@ -1,0 +1,179 @@
+
+.arapey-regular {
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {
+    background-image:  linear-gradient(black, black),url(IMG_3899.jpeg);
+    background-size: cover;
+    background-blend-mode: saturation;
+    color: black;
+    background-attachment: fixed;
+    color:black;
+}
+.container {
+    width: 100vw;
+    margin: auto ;
+}
+.container-form {
+    max-width: 80vw;
+    background-color: rgba(115, 217, 148, 0.9);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* -- Input Name, Email, Age -- */
+.container-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+p {
+    margin-left: 2rem;
+}
+.container-input {
+ display: flex;
+ flex-direction: column;
+ margin-left: 1.5rem;
+ margin-right: 1.5em;
+}
+.lbl-input {
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+/* -- /// Input Name, Email, Age -- */
+
+/* ----- Select Drop Down 1 ----- */
+.container-select1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5em;
+}
+.lbl-select1 {
+    margin-bottom: 0.5rem;
+}
+/* ----- /// Select Drop Down 1 ----- */
+
+/* ---- Radio Button ---- */
+.container-radiobtn1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5em;
+}
+.btn-radio1 {
+    margin-right: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+.lbl-title {
+    margin-bottom: 0.5rem;
+}
+/* ---- /// Radio Button ---- */
+
+/* -- Select Drop Down  2 -- */
+.container-select2 {
+ margin: 0.5rem 1.5rem;
+ display: flex;
+ flex-direction: column;
+}
+.lbl-select2 {
+    margin-bottom: 0.5rem;
+}
+/* --///  Select Drop Down  2 -- */
+
+/* -- Checkboxes --- */
+.container-checkboxes {
+    margin: 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.title-radio-btn {
+    margin-bottom: 0.5rem;
+}
+.btn-radio2 {
+ margin-right: 0.5rem;
+ margin-bottom: 0.4rem;
+}
+/* -- /// Checkboxes --- */
+
+/* --- Text Area ---- */
+.container-textarea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5em;
+}
+.title-text {
+    margin-bottom: 0.7rem;
+}
+textarea {
+    height: 60px ;
+    margin: auto;
+    color: black;
+    border: 2px solid #ccc;
+}
+.button-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    background-color: green;
+}
+/* --- /// Text Area ---- */
+
+/* --- Others ---  */
+.inputselector {
+    height: 25px;
+    border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input {
+    border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+    
+}
+.select-option {
+    height: 25px;
+    border-top-left-radius: 10%;
+    border-radius: 4px;
+}
+/* ---///  Others ---  */
+
+/* ====== Media Query ===== */
+@media (min-width: 800px ) {
+    .container-form {
+        width: 500px;
+    }
+    .button-text {
+    width: 428px;
+    height: 38px;
+    margin-left:  auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    }
+}
+@media (max-width: 499px) {
+    .button-text {
+        height: 60px;
+    }
+    textarea {
+        height: 80px;
+    }
+}
+
